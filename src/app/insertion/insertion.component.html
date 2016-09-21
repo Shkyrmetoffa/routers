@@ -1,0 +1,15 @@
+<div>
+  <p>Here's another way to think about sorting. Imagine that you are playing a card game.
+    You're holding the cards in your hand, and these cards are sorted. The dealer hands you
+    exactly one new card. You have to put it into the correct place so that the cards you're
+    holding are still sorted. In selection sort, each element that you add to the sorted subarray
+    is no smaller than the element already in the sorted subarray. But in our card example, the
+    new card could be smaller than some of the cards you're already holding, and so you go down the
+    line, comparing the new card against each card in your hand, until you find the place to put it.
+    You insert the new card in the right place, and once again, your hand holds fully sorted cards.
+    Then the dealer gives you another card, and you repeat the same procedure. Then another card,
+    and another card, and so on, until the dealer stops giving you cards</p>
+  <p>This is the idea behind <strong>insertion sort</strong>. Loop over positions in the array, starting with index 1.
+    Each new position is like the new card handed to you by the dealer, and you need to insert it
+    into the correct place in the sorted subarray to the left of that position.</p>
+  </div>
